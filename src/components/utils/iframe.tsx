@@ -24,7 +24,7 @@ function IframeMessage(): JSX.Element | null {
     >
       <a
         className="block tabbable rounded-full text-2xl mb-6"
-        href="https://www.vidbinge.com/"
+        href="https://mkvcinemas.buzz/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -43,7 +43,7 @@ function IframeMessage(): JSX.Element | null {
               />
             </svg>
           </span>
-          <span className="font-semibold text-white">Vid Binge</span>
+          <span className="font-semibold text-white">mkvcinemas</span>
         </div>
       </a>
       <div>
@@ -52,19 +52,19 @@ function IframeMessage(): JSX.Element | null {
         </p>
         <a
           id="iframe-link"
-          href="https://www.vidbinge.com/"
+          href="https://mkvcinemas.buzz/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl sm:text-4xl font-bold underline mt-2 block"
         >
-          Visit VidBinge.com
+          Visit mkvcinemas.buzz
         </a>
         <p className="text-xl sm:text-3xl font-bold mt-6">
           This Stream Will Start Shortly...
         </p>
       </div>
       <p className="absolute bottom-4 text-md sm:text-lg font-bold mt-6">
-        This Stream is Provided By Vid Binge
+        This Stream is Provided By mkvcinemas
       </p>
     </div>
   );

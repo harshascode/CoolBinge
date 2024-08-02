@@ -109,7 +109,7 @@ export function conf(): RuntimeConfig {
     INSTAGRAM_LINK,
     HLSCONVERTER_URL: getKey(
       "HLSCONVERTER_URL",
-      "https://hlsdownload.vidbinge.com",
+      "https://hlsdownload.mkvcinemas.buzz",
     ),
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(

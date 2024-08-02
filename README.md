@@ -53,7 +53,7 @@ pnpm build
 
 [Discord Server](https://discord.gg/4jzBvV8E5r)
 
-[Email](mailto:josh@vidbinge.com)
+[Email](mailto:josh@mkvcinemas.buzz)
 
 ## 🤝 Thanks to all Contributors
 

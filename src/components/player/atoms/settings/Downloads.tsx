@@ -44,7 +44,7 @@ export function DownloadView({ id }: { id: string }) {
   const router = useOverlayRouter(id);
   const { t } = useTranslation();
   const downloadUrl = useDownloadLink();
-  const hlsDownload = `https://hlsdownload.vidbinge.com/?url=${encodeURIComponent(downloadUrl || "")}`;
+  const hlsDownload = `https://hlsdownload.mkvcinemas.buzz/?url=${encodeURIComponent(downloadUrl || "")}`;
   const [, copyToClipboard] = useCopyToClipboard();
 
   const sourceType = usePlayerStore((s) => s.source?.type);
