@@ -89,13 +89,13 @@ export function OnboardingPage() {
         </div>
         {noProxies ? null : (
           <>
-            <p className="text-center hidden md:block mt-12">
+            <p className="text-center hidden md:block mt-12 bg-onboarding-card duration-300 border border-onboarding-border rounded-lg p-7 hover:bg-onboarding-cardHover transition-colors cursor-pointer">
               <Trans i18nKey="onboarding.start.options.default.text">
                 <br />
                 <a
                   onClick={skipModal.show}
                   type="button"
-                  className="text-onboarding-link hover:opacity-75 cursor-pointer"
+                  className="text-onboarding-link hover:opacity-75 cursor-pointer font-semibold underline-offset-1"
                 />
               </Trans>
             </p>
